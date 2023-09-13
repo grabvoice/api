@@ -4,3 +4,7 @@ ssh xiao@phoneticsrv3.lcs.tcd.ie
 xiao4074
 
 ssh xiao@134.226.88.174
+
+
+DiffWave-Vocoder
+python inference.py -c config_64.json -cond LJ001-0001
