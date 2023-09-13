@@ -7,4 +7,6 @@ ssh xiao@134.226.88.174
 
 
 DiffWave-Vocoder
+git clone https://github.com/philsyn/DiffWave-Vocoder.git
+
 python inference.py -c config_64.json -cond LJ001-0001
