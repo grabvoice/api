@@ -16,3 +16,16 @@ This is a reimplementaion of the neural vocoder in [DIFFWAVE: A VERSATILE DIFFUS
 - [channel=64 samples](https://github.com/philsyn/DiffWave-Vocoder/tree/master/exp/ch64_T50_betaT0.05/speeches)
 - [channel=128 model](https://github.com/philsyn/DiffWave-Vocoder/tree/master/exp/ch128_T200_betaT0.02/logs/checkpoint)
 - [channel=128 samples](https://github.com/philsyn/DiffWave-Vocoder/tree/master/exp/ch128_T200_betaT0.02/speeches)
+
+login into the GPU:
+ssh xiao@phoneticsrv3.lcs.tcd.ie
+
+xiao4074
+
+ssh xiao@134.226.88.174
+
+
+DiffWave-Vocoder
+git clone https://github.com/philsyn/DiffWave-Vocoder.git
+
+python inference.py -c config_64.json -cond LJ001-0001
