@@ -29,3 +29,6 @@ DiffWave-Vocoder
 git clone https://github.com/philsyn/DiffWave-Vocoder.git
 
 python inference.py -c config_64.json -cond LJ001-0001
+
+
+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

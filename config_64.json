@@ -21,8 +21,8 @@
         "ckpt_iter": "max",
         "iters_per_ckpt": 10000,
         "iters_per_logging": 100,
-        "n_iters": 1000001,
-        "learning_rate": 2e-4,
+        "n_iters": 1000,
+        "learning_rate": 2e-1,
         "batch_size_per_gpu": 2
     },
     "trainset_config": {
