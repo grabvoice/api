@@ -25,6 +25,11 @@ xiao4074
 ssh xiao@134.226.88.174
 
 
+python train.py --base_dir ./ --no_wandb --lr 0.01
+python enhancement.py --test ./test/ --enhanced_dir ./enhanced/ --ckpt ./logs/25/last.ckpt
+python train.py --base_dir ./ --no_wandb
+
+
 DiffWave-Vocoder
 git clone https://github.com/philsyn/DiffWave-Vocoder.git
 
@@ -76,6 +81,31 @@ Sat Sep 16 15:20:35 2023
 |=============================================================================|
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
+
+# Install GCC compiler 11:
+sudo apt install build-essential manpages-dev software-properties-common
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt update && sudo apt install gcc-11 g++-11
+
+# install GCC 6
+1. sudo vim  /etc/apt/sources.list
+
+2. add ```deb http://dk.archive.ubuntu.com/ubuntu/ bionic main universe``` to file
+
+3. sudo apt update
+
+4.sudo apt-get install gcc-6 g++-6 -y
+
+# vast - ai
+https://vast.ai/docs/gpu-instances/ssh
+https://www.youtube.com/embed/KraLVgFS4vU
+
+# Noisy speech database for training speech enhancement algorithms and TTS models
+https://datashare.ed.ac.uk/handle/10283/2791
+
+
+
+
 
 
 
